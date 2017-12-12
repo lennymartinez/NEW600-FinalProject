@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A07BBCBE1FDECBF200030EA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BBCBD1FDECBF200030EA8 /* AppDelegate.swift */; };
+		A07BBCC01FDECBF200030EA8 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A07BBCBF1FDECBF200030EA8 /* Scene.sks */; };
+		A07BBCC21FDECBF200030EA8 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BBCC11FDECBF200030EA8 /* Scene.swift */; };
+		A07BBCC41FDECBF200030EA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BBCC31FDECBF200030EA8 /* ViewController.swift */; };
+		A07BBCC71FDECBF200030EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07BBCC51FDECBF200030EA8 /* Main.storyboard */; };
+		A07BBCC91FDECBF200030EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07BBCC81FDECBF200030EA8 /* Assets.xcassets */; };
+		A07BBCCC1FDECBF200030EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07BBCCA1FDECBF200030EA8 /* LaunchScreen.storyboard */; };
+		A07BBCD71FDECBF300030EA8 /* Waypoints_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BBCD61FDECBF300030EA8 /* Waypoints_demoTests.swift */; };
+		A07BBCE21FDECBF300030EA8 /* Waypoints_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07BBCE11FDECBF300030EA8 /* Waypoints_demoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A07BBCD31FDECBF300030EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A07BBCB21FDECBF200030EA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A07BBCB91FDECBF200030EA8;
+			remoteInfo = "Waypoints-demo";
+		};
+		A07BBCDE1FDECBF300030EA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A07BBCB21FDECBF200030EA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A07BBCB91FDECBF200030EA8;
+			remoteInfo = "Waypoints-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A07BBCBA1FDECBF200030EA8 /* Waypoints-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Waypoints-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07BBCBD1FDECBF200030EA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A07BBCBF1FDECBF200030EA8 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		A07BBCC11FDECBF200030EA8 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		A07BBCC31FDECBF200030EA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A07BBCC61FDECBF200030EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A07BBCC81FDECBF200030EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A07BBCCB1FDECBF200030EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A07BBCCD1FDECBF200030EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07BBCD21FDECBF300030EA8 /* Waypoints-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waypoints-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07BBCD61FDECBF300030EA8 /* Waypoints_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waypoints_demoTests.swift; sourceTree = "<group>"; };
+		A07BBCD81FDECBF300030EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07BBCDD1FDECBF300030EA8 /* Waypoints-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waypoints-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07BBCE11FDECBF300030EA8 /* Waypoints_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waypoints_demoUITests.swift; sourceTree = "<group>"; };
+		A07BBCE31FDECBF300030EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A07BBCB71FDECBF200030EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07BBCCF1FDECBF300030EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07BBCDA1FDECBF300030EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A07BBCB11FDECBF200030EA8 = {
+			isa = PBXGroup;
+			children = (
+				A07BBCBC1FDECBF200030EA8 /* Waypoints-demo */,
+				A07BBCD51FDECBF300030EA8 /* Waypoints-demoTests */,
+				A07BBCE01FDECBF300030EA8 /* Waypoints-demoUITests */,
+				A07BBCBB1FDECBF200030EA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A07BBCBB1FDECBF200030EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A07BBCBA1FDECBF200030EA8 /* Waypoints-demo.app */,
+				A07BBCD21FDECBF300030EA8 /* Waypoints-demoTests.xctest */,
+				A07BBCDD1FDECBF300030EA8 /* Waypoints-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A07BBCBC1FDECBF200030EA8 /* Waypoints-demo */ = {
+			isa = PBXGroup;
+			children = (
+				A07BBCBD1FDECBF200030EA8 /* AppDelegate.swift */,
+				A07BBCBF1FDECBF200030EA8 /* Scene.sks */,
+				A07BBCC11FDECBF200030EA8 /* Scene.swift */,
+				A07BBCC31FDECBF200030EA8 /* ViewController.swift */,
+				A07BBCC51FDECBF200030EA8 /* Main.storyboard */,
+				A07BBCC81FDECBF200030EA8 /* Assets.xcassets */,
+				A07BBCCA1FDECBF200030EA8 /* LaunchScreen.storyboard */,
+				A07BBCCD1FDECBF200030EA8 /* Info.plist */,
+			);
+			path = "Waypoints-demo";
+			sourceTree = "<group>";
+		};
+		A07BBCD51FDECBF300030EA8 /* Waypoints-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A07BBCD61FDECBF300030EA8 /* Waypoints_demoTests.swift */,
+				A07BBCD81FDECBF300030EA8 /* Info.plist */,
+			);
+			path = "Waypoints-demoTests";
+			sourceTree = "<group>";
+		};
+		A07BBCE01FDECBF300030EA8 /* Waypoints-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A07BBCE11FDECBF300030EA8 /* Waypoints_demoUITests.swift */,
+				A07BBCE31FDECBF300030EA8 /* Info.plist */,
+			);
+			path = "Waypoints-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A07BBCB91FDECBF200030EA8 /* Waypoints-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07BBCE61FDECBF300030EA8 /* Build configuration list for PBXNativeTarget "Waypoints-demo" */;
+			buildPhases = (
+				A07BBCB61FDECBF200030EA8 /* Sources */,
+				A07BBCB71FDECBF200030EA8 /* Frameworks */,
+				A07BBCB81FDECBF200030EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Waypoints-demo";
+			productName = "Waypoints-demo";
+			productReference = A07BBCBA1FDECBF200030EA8 /* Waypoints-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A07BBCD11FDECBF300030EA8 /* Waypoints-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07BBCE91FDECBF300030EA8 /* Build configuration list for PBXNativeTarget "Waypoints-demoTests" */;
+			buildPhases = (
+				A07BBCCE1FDECBF300030EA8 /* Sources */,
+				A07BBCCF1FDECBF300030EA8 /* Frameworks */,
+				A07BBCD01FDECBF300030EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A07BBCD41FDECBF300030EA8 /* PBXTargetDependency */,
+			);
+			name = "Waypoints-demoTests";
+			productName = "Waypoints-demoTests";
+			productReference = A07BBCD21FDECBF300030EA8 /* Waypoints-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A07BBCDC1FDECBF300030EA8 /* Waypoints-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07BBCEC1FDECBF300030EA8 /* Build configuration list for PBXNativeTarget "Waypoints-demoUITests" */;
+			buildPhases = (
+				A07BBCD91FDECBF300030EA8 /* Sources */,
+				A07BBCDA1FDECBF300030EA8 /* Frameworks */,
+				A07BBCDB1FDECBF300030EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A07BBCDF1FDECBF300030EA8 /* PBXTargetDependency */,
+			);
+			name = "Waypoints-demoUITests";
+			productName = "Waypoints-demoUITests";
+			productReference = A07BBCDD1FDECBF300030EA8 /* Waypoints-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A07BBCB21FDECBF200030EA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Lenny Martinez";
+				TargetAttributes = {
+					A07BBCB91FDECBF200030EA8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A07BBCD11FDECBF300030EA8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A07BBCB91FDECBF200030EA8;
+					};
+					A07BBCDC1FDECBF300030EA8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A07BBCB91FDECBF200030EA8;
+					};
+				};
+			};
+			buildConfigurationList = A07BBCB51FDECBF200030EA8 /* Build configuration list for PBXProject "Waypoints-demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A07BBCB11FDECBF200030EA8;
+			productRefGroup = A07BBCBB1FDECBF200030EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A07BBCB91FDECBF200030EA8 /* Waypoints-demo */,
+				A07BBCD11FDECBF300030EA8 /* Waypoints-demoTests */,
+				A07BBCDC1FDECBF300030EA8 /* Waypoints-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A07BBCB81FDECBF200030EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07BBCC01FDECBF200030EA8 /* Scene.sks in Resources */,
+				A07BBCCC1FDECBF200030EA8 /* LaunchScreen.storyboard in Resources */,
+				A07BBCC91FDECBF200030EA8 /* Assets.xcassets in Resources */,
+				A07BBCC71FDECBF200030EA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07BBCD01FDECBF300030EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07BBCDB1FDECBF300030EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A07BBCB61FDECBF200030EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07BBCC41FDECBF200030EA8 /* ViewController.swift in Sources */,
+				A07BBCC21FDECBF200030EA8 /* Scene.swift in Sources */,
+				A07BBCBE1FDECBF200030EA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07BBCCE1FDECBF300030EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07BBCD71FDECBF300030EA8 /* Waypoints_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07BBCD91FDECBF300030EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07BBCE21FDECBF300030EA8 /* Waypoints_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A07BBCD41FDECBF300030EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A07BBCB91FDECBF200030EA8 /* Waypoints-demo */;
+			targetProxy = A07BBCD31FDECBF300030EA8 /* PBXContainerItemProxy */;
+		};
+		A07BBCDF1FDECBF300030EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A07BBCB91FDECBF200030EA8 /* Waypoints-demo */;
+			targetProxy = A07BBCDE1FDECBF300030EA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A07BBCC51FDECBF200030EA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07BBCC61FDECBF200030EA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A07BBCCA1FDECBF200030EA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07BBCCB1FDECBF200030EA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A07BBCE41FDECBF300030EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A07BBCE51FDECBF300030EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A07BBCE71FDECBF300030EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "Waypoints-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xelnyn.Waypoints-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A07BBCE81FDECBF300030EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "Waypoints-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xelnyn.Waypoints-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A07BBCEA1FDECBF300030EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "Waypoints-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennymartinezd.Waypoints-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waypoints-demo.app/Waypoints-demo";
+			};
+			name = Debug;
+		};
+		A07BBCEB1FDECBF300030EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "Waypoints-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennymartinezd.Waypoints-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Waypoints-demo.app/Waypoints-demo";
+			};
+			name = Release;
+		};
+		A07BBCED1FDECBF300030EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "Waypoints-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennymartinezd.Waypoints-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Waypoints-demo";
+			};
+			name = Debug;
+		};
+		A07BBCEE1FDECBF300030EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "Waypoints-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennymartinezd.Waypoints-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Waypoints-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A07BBCB51FDECBF200030EA8 /* Build configuration list for PBXProject "Waypoints-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07BBCE41FDECBF300030EA8 /* Debug */,
+				A07BBCE51FDECBF300030EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07BBCE61FDECBF300030EA8 /* Build configuration list for PBXNativeTarget "Waypoints-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07BBCE71FDECBF300030EA8 /* Debug */,
+				A07BBCE81FDECBF300030EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07BBCE91FDECBF300030EA8 /* Build configuration list for PBXNativeTarget "Waypoints-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07BBCEA1FDECBF300030EA8 /* Debug */,
+				A07BBCEB1FDECBF300030EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07BBCEC1FDECBF300030EA8 /* Build configuration list for PBXNativeTarget "Waypoints-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07BBCED1FDECBF300030EA8 /* Debug */,
+				A07BBCEE1FDECBF300030EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A07BBCB21FDECBF200030EA8 /* Project object */;
+}

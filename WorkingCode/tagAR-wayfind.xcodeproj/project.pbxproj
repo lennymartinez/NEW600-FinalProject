@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A000101B1FDE23CE00BC5B74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000101A1FDE23CE00BC5B74 /* AppDelegate.swift */; };
+		A000101D1FDE23CE00BC5B74 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A000101C1FDE23CE00BC5B74 /* art.scnassets */; };
+		A000101F1FDE23CE00BC5B74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000101E1FDE23CE00BC5B74 /* ViewController.swift */; };
+		A00010221FDE23CE00BC5B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00010201FDE23CE00BC5B74 /* Main.storyboard */; };
+		A00010241FDE23CE00BC5B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00010231FDE23CE00BC5B74 /* Assets.xcassets */; };
+		A00010271FDE23CE00BC5B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00010251FDE23CE00BC5B74 /* LaunchScreen.storyboard */; };
+		A00010321FDE23CE00BC5B74 /* tagAR_wayfindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00010311FDE23CE00BC5B74 /* tagAR_wayfindTests.swift */; };
+		A000103D1FDE23CE00BC5B74 /* tagAR_wayfindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A000103C1FDE23CE00BC5B74 /* tagAR_wayfindUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A000102E1FDE23CE00BC5B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A000100F1FDE23CE00BC5B74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00010161FDE23CE00BC5B74;
+			remoteInfo = "tagAR-wayfind";
+		};
+		A00010391FDE23CE00BC5B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A000100F1FDE23CE00BC5B74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00010161FDE23CE00BC5B74;
+			remoteInfo = "tagAR-wayfind";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00010171FDE23CE00BC5B74 /* tagAR-wayfind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tagAR-wayfind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A000101A1FDE23CE00BC5B74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A000101C1FDE23CE00BC5B74 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		A000101E1FDE23CE00BC5B74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A00010211FDE23CE00BC5B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00010231FDE23CE00BC5B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00010261FDE23CE00BC5B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00010281FDE23CE00BC5B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A000102D1FDE23CE00BC5B74 /* tagAR-wayfindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tagAR-wayfindTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00010311FDE23CE00BC5B74 /* tagAR_wayfindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tagAR_wayfindTests.swift; sourceTree = "<group>"; };
+		A00010331FDE23CE00BC5B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00010381FDE23CE00BC5B74 /* tagAR-wayfindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tagAR-wayfindUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A000103C1FDE23CE00BC5B74 /* tagAR_wayfindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tagAR_wayfindUITests.swift; sourceTree = "<group>"; };
+		A000103E1FDE23CE00BC5B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00010141FDE23CE00BC5B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A000102A1FDE23CE00BC5B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00010351FDE23CE00BC5B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A000100E1FDE23CE00BC5B74 = {
+			isa = PBXGroup;
+			children = (
+				A00010191FDE23CE00BC5B74 /* tagAR-wayfind */,
+				A00010301FDE23CE00BC5B74 /* tagAR-wayfindTests */,
+				A000103B1FDE23CE00BC5B74 /* tagAR-wayfindUITests */,
+				A00010181FDE23CE00BC5B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00010181FDE23CE00BC5B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00010171FDE23CE00BC5B74 /* tagAR-wayfind.app */,
+				A000102D1FDE23CE00BC5B74 /* tagAR-wayfindTests.xctest */,
+				A00010381FDE23CE00BC5B74 /* tagAR-wayfindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00010191FDE23CE00BC5B74 /* tagAR-wayfind */ = {
+			isa = PBXGroup;
+			children = (
+				A000101A1FDE23CE00BC5B74 /* AppDelegate.swift */,
+				A000101C1FDE23CE00BC5B74 /* art.scnassets */,
+				A000101E1FDE23CE00BC5B74 /* ViewController.swift */,
+				A00010201FDE23CE00BC5B74 /* Main.storyboard */,
+				A00010231FDE23CE00BC5B74 /* Assets.xcassets */,
+				A00010251FDE23CE00BC5B74 /* LaunchScreen.storyboard */,
+				A00010281FDE23CE00BC5B74 /* Info.plist */,
+			);
+			path = "tagAR-wayfind";
+			sourceTree = "<group>";
+		};
+		A00010301FDE23CE00BC5B74 /* tagAR-wayfindTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00010311FDE23CE00BC5B74 /* tagAR_wayfindTests.swift */,
+				A00010331FDE23CE00BC5B74 /* Info.plist */,
+			);
+			path = "tagAR-wayfindTests";
+			sourceTree = "<group>";
+		};
+		A000103B1FDE23CE00BC5B74 /* tagAR-wayfindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A000103C1FDE23CE00BC5B74 /* tagAR_wayfindUITests.swift */,
+				A000103E1FDE23CE00BC5B74 /* Info.plist */,
+			);
+			path = "tagAR-wayfindUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00010161FDE23CE00BC5B74 /* tagAR-wayfind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00010411FDE23CE00BC5B74 /* Build configuration list for PBXNativeTarget "tagAR-wayfind" */;
+			buildPhases = (
+				A00010131FDE23CE00BC5B74 /* Sources */,
+				A00010141FDE23CE00BC5B74 /* Frameworks */,
+				A00010151FDE23CE00BC5B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tagAR-wayfind";
+			productName = "tagAR-wayfind";
+			productReference = A00010171FDE23CE00BC5B74 /* tagAR-wayfind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A000102C1FDE23CE00BC5B74 /* tagAR-wayfindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00010441FDE23CE00BC5B74 /* Build configuration list for PBXNativeTarget "tagAR-wayfindTests" */;
+			buildPhases = (
+				A00010291FDE23CE00BC5B74 /* Sources */,
+				A000102A1FDE23CE00BC5B74 /* Frameworks */,
+				A000102B1FDE23CE00BC5B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A000102F1FDE23CE00BC5B74 /* PBXTargetDependency */,
+			);
+			name = "tagAR-wayfindTests";
+			productName = "tagAR-wayfindTests";
+			productReference = A000102D1FDE23CE00BC5B74 /* tagAR-wayfindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00010371FDE23CE00BC5B74 /* tagAR-wayfindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00010471FDE23CE00BC5B74 /* Build configuration list for PBXNativeTarget "tagAR-wayfindUITests" */;
+			buildPhases = (
+				A00010341FDE23CE00BC5B74 /* Sources */,
+				A00010351FDE23CE00BC5B74 /* Frameworks */,
+				A00010361FDE23CE00BC5B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A000103A1FDE23CE00BC5B74 /* PBXTargetDependency */,
+			);
+			name = "tagAR-wayfindUITests";
+			productName = "tagAR-wayfindUITests";
+			productReference = A00010381FDE23CE00BC5B74 /* tagAR-wayfindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A000100F1FDE23CE00BC5B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Lenny Martinez";
+				TargetAttributes = {
+					A00010161FDE23CE00BC5B74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A000102C1FDE23CE00BC5B74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A00010161FDE23CE00BC5B74;
+					};
+					A00010371FDE23CE00BC5B74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A00010161FDE23CE00BC5B74;
+					};
+				};
+			};
+			buildConfigurationList = A00010121FDE23CE00BC5B74 /* Build configuration list for PBXProject "tagAR-wayfind" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A000100E1FDE23CE00BC5B74;
+			productRefGroup = A00010181FDE23CE00BC5B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00010161FDE23CE00BC5B74 /* tagAR-wayfind */,
+				A000102C1FDE23CE00BC5B74 /* tagAR-wayfindTests */,
+				A00010371FDE23CE00BC5B74 /* tagAR-wayfindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00010151FDE23CE00BC5B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A000101D1FDE23CE00BC5B74 /* art.scnassets in Resources */,
+				A00010271FDE23CE00BC5B74 /* LaunchScreen.storyboard in Resources */,
+				A00010241FDE23CE00BC5B74 /* Assets.xcassets in Resources */,
+				A00010221FDE23CE00BC5B74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A000102B1FDE23CE00BC5B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00010361FDE23CE00BC5B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00010131FDE23CE00BC5B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A000101F1FDE23CE00BC5B74 /* ViewController.swift in Sources */,
+				A000101B1FDE23CE00BC5B74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00010291FDE23CE00BC5B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00010321FDE23CE00BC5B74 /* tagAR_wayfindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00010341FDE23CE00BC5B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A000103D1FDE23CE00BC5B74 /* tagAR_wayfindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A000102F1FDE23CE00BC5B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00010161FDE23CE00BC5B74 /* tagAR-wayfind */;
+			targetProxy = A000102E1FDE23CE00BC5B74 /* PBXContainerItemProxy */;
+		};
+		A000103A1FDE23CE00BC5B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00010161FDE23CE00BC5B74 /* tagAR-wayfind */;
+			targetProxy = A00010391FDE23CE00BC5B74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A00010201FDE23CE00BC5B74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00010211FDE23CE00BC5B74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00010251FDE23CE00BC5B74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00010261FDE23CE00BC5B74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A000103F1FDE23CE00BC5B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00010401FDE23CE00BC5B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00010421FDE23CE00BC5B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "tagAR-wayfind/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennymartinezd.tagAR-wayfind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00010431FDE23CE00BC5B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "tagAR-wayfind/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennymartinezd.tagAR-wayfind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00010451FDE23CE00BC5B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "tagAR-wayfindTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennymartinezd.tagAR-wayfindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tagAR-wayfind.app/tagAR-wayfind";
+			};
+			name = Debug;
+		};
+		A00010461FDE23CE00BC5B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "tagAR-wayfindTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennymartinezd.tagAR-wayfindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tagAR-wayfind.app/tagAR-wayfind";
+			};
+			name = Release;
+		};
+		A00010481FDE23CE00BC5B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "tagAR-wayfindUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennymartinezd.tagAR-wayfindUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tagAR-wayfind";
+			};
+			name = Debug;
+		};
+		A00010491FDE23CE00BC5B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WR2Z8B3C7;
+				INFOPLIST_FILE = "tagAR-wayfindUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lennymartinezd.tagAR-wayfindUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tagAR-wayfind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00010121FDE23CE00BC5B74 /* Build configuration list for PBXProject "tagAR-wayfind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A000103F1FDE23CE00BC5B74 /* Debug */,
+				A00010401FDE23CE00BC5B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00010411FDE23CE00BC5B74 /* Build configuration list for PBXNativeTarget "tagAR-wayfind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00010421FDE23CE00BC5B74 /* Debug */,
+				A00010431FDE23CE00BC5B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00010441FDE23CE00BC5B74 /* Build configuration list for PBXNativeTarget "tagAR-wayfindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00010451FDE23CE00BC5B74 /* Debug */,
+				A00010461FDE23CE00BC5B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00010471FDE23CE00BC5B74 /* Build configuration list for PBXNativeTarget "tagAR-wayfindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00010481FDE23CE00BC5B74 /* Debug */,
+				A00010491FDE23CE00BC5B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A000100F1FDE23CE00BC5B74 /* Project object */;
+}
